@@ -6,8 +6,24 @@ function getAllUsers(request, response) {
     return response.json(users)
 }
 
-module.exports = {
-    getAllUsers 
+function createUser (req, res ) {
+    // const name = req.body.name
+
+
+    const { name } = req.body
+
+    const newUser = {
+        id: Date.now(),
+        name : name
+    }
+
+    
+    
+    const createdUser = userModel.create (newUser)
+    return res.status (201).json(createdUser)
 }
 
-
+module.exports = {
+    createUser,
+    getAllUsers 
+}

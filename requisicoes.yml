@@ -2,15 +2,15 @@ type: collection.insomnia.rest/5.0
 schema_version: "5.1"
 name: Scratch Pad
 meta:
-  id: wrk_scratchpad
-  created: 1764769685260
-  modified: 1764769685260
+  id: wrk_0b7270160a58423ebed49147ee829b6d
+  created: 1779143407244
+  modified: 1779143407244
   description: ""
 collection:
   - url: http://localhost:3000/
     name: Teste da API
     meta:
-      id: req_9df9c7e3d2c9488fa6c9bcc75ee7ff43
+      id: req_b47514f7e2854b15ae329eae766af282
       created: 1778539762782
       modified: 1778540005508
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de usuarios
     meta:
-      id: req_72cf20678a654c49997a71a92b3b2d18
+      id: req_d2d2676518c94cf08c4de3508252de39
       created: 1778540125202
       modified: 1778540183151
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar usuario
     meta:
-      id: req_875b662679c44d3eaecf539adff7d9ce
+      id: req_cef6b86e523c4eb0afa9e523db99362d
       created: 1778540794681
       modified: 1778545324990
       isPrivate: false
@@ -86,16 +86,39 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:3000/users/12
+    name: Busca usuário por ID
+    meta:
+      id: req_e5271757a9b44d758fccce2807f46da9
+      created: 1779150040308
+      modified: 1779152939705
+      isPrivate: false
+      description: ""
+      sortKey: -1778539762707
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
-    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    id: jar_b9057d4a957c4ad786f9b7030669b958
     created: 1778539744666
     modified: 1778539744666
 environments:
   name: Base Environment
   meta:
-    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    id: env_177981af1caf4a0ea7e1e5c5c3eff411
     created: 1778539744662
     modified: 1778539744662
     isPrivate: false

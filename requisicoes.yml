@@ -10,7 +10,7 @@ collection:
   - url: http://localhost:3000/
     name: Teste da API
     meta:
-      id: req_fb0c0cc0b5ea468fb8d043602fc10c85
+      id: req_2769ec4a96864519be65aa516effdf5e
       created: 1778539762782
       modified: 1778540005508
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de usuarios
     meta:
-      id: req_dbbd2f70de0940e4af003220617ba0ae
+      id: req_bf0d37d2905848a295b5040a2343c41f
       created: 1778540125202
       modified: 1778540183151
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar usuario
     meta:
-      id: req_ab34a2120cbe497c89a5fad6207c4366
+      id: req_2e94408737554230b7b52ff20d7e72b7
       created: 1778540794681
       modified: 1779758439873
       isPrivate: false
@@ -89,9 +89,9 @@ collection:
   - url: http://localhost:3000/users/1
     name: Busca usuário por ID
     meta:
-      id: req_581887053604488283d5a2b6c74251e9
+      id: req_1013b2cd4cfb48ce8e3507dc235950e9
       created: 1779150040308
-      modified: 1779750790281
+      modified: 1780352899830
       isPrivate: false
       description: ""
       sortKey: -1778539762707
@@ -112,7 +112,7 @@ collection:
   - url: http://localhost:3000/users/1
     name: Atualizar usuario
     meta:
-      id: req_f177726f7a5d4041b11301ed9687671b
+      id: req_38dec3f399174086952c44ceb7c94a91
       created: 1779750699726
       modified: 1779758441274
       isPrivate: false
@@ -145,7 +145,7 @@ collection:
   - url: http://localhost:3000/users/1
     name: Deletar usuário por ID
     meta:
-      id: req_94b57643140f40e0a4953593268a6cfe
+      id: req_a6bb60d52c8b4621b89cef0ee44fd8d3
       created: 1779757274194
       modified: 1779757369324
       isPrivate: false
@@ -169,12 +169,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779748579712
-    modified: 1779748579712
+    created: 1780352751547
+    modified: 1780352751547
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779748579709
-    modified: 1779748579709
+    created: 1780352751543
+    modified: 1780352751543
     isPrivate: false

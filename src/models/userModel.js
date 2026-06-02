@@ -9,9 +9,7 @@ const usersList = require("../data/users")
 
         return user
     }
-
     
-
     const findById = (id) => {
    return usersList.find(user => user.id === id)     
 
